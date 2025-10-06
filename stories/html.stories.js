@@ -446,7 +446,7 @@ storiesOf('Portals', module)
 
         return <StoryComponent />;
     })
-    .add('persist playback whilst dispalyed in a hidden element', () => {
+    .add('persist playback whilst displayed in a hidden element', () => {
         const StoryComponent = () => {
             const fallbackRef = React.useRef(undefined);
             const portalNode = React.useMemo(() => createHtmlPortalNode({ fallbackMountNode: fallbackRef }), []);
